@@ -41,10 +41,6 @@ htmlcov/
 .coverage
 .coverage.*
 .cache
-<<<<<<< HEAD
-.pytest_cache/
-=======
->>>>>>> f34ea6976bf731bb4dc538d80d8290c001b29999
 nosetests.xml
 coverage.xml
 *.cover
@@ -54,13 +50,10 @@ coverage.xml
 *.mo
 *.pot
 
-<<<<<<< HEAD
-=======
 # Django stuff:
 *.log
 local_settings.py
 
->>>>>>> f34ea6976bf731bb4dc538d80d8290c001b29999
 # Flask stuff:
 instance/
 .webassets-cache
@@ -81,25 +74,11 @@ target/
 .python-version
 
 # celery beat schedule file
-<<<<<<< HEAD
-celerybeat-schedule.*
-=======
 celerybeat-schedule
->>>>>>> f34ea6976bf731bb4dc538d80d8290c001b29999
 
 # SageMath parsed files
 *.sage.py
 
-<<<<<<< HEAD
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-=======
 # dotenv
 .env
 
@@ -107,7 +86,6 @@ venv.bak/
 .venv
 venv/
 ENV/
->>>>>>> f34ea6976bf731bb4dc538d80d8290c001b29999
 
 # Spyder project settings
 .spyderproject
@@ -121,9 +99,3 @@ ENV/
 
 # mypy
 .mypy_cache/
-<<<<<<< HEAD
-
-
-# End of https://www.gitignore.io/api/python
-=======
->>>>>>> f34ea6976bf731bb4dc538d80d8290c001b29999
