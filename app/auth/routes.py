@@ -47,7 +47,10 @@ def login():
             # log employee in
             login_user(employee)
             # redirect to dashboard page
-            return redirect(url_for('home.dashboard'))
+            if employee.is_admin:
+                return redirect(url_for('home.admin_dashboard'))
+            else:
+                return redirect(url_for('home.dashboard'))
         else:
             flash('Invalid email or password.')
     return render_template('auth/login.html', form=form, title='Login')
