@@ -27,7 +27,7 @@ DB_PASS="my_db_password"
 DB_HOST="my_db_host"
 DB_NAME="my_db_name"
 CONN_STRING="mysql://$DB_USER:$DB_PASS@$DB_HOST/$DB_NAME"
-echo "SQLALCHEMY_DATABASE_URI = '$CONN_STRING'" > instance/config.py
+echo "SQLALCHEMY_DATABASE_URI = '$CONN_STRING'" >> instance/config.py
 ```
 
 ## Running migrations
