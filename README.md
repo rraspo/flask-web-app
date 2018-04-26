@@ -4,7 +4,7 @@ Repository for a Flask CRUD web application
 ## Non-functional requirements
 This project uses MySQL database engine, so make sure to have it installed or within a docker container to be able to run this project fully.
 
-## Installing 
+## Installing 
 
 First clone the repository, cd into it, create a virtual environment, activate it and install the requirements.
 
@@ -30,7 +30,7 @@ CONN_STRING="mysql://$DB_USER:$DB_PASS@$DB_HOST/$DB_NAME"
 echo "SQLALCHEMY_DATABASE_URI = '$CONN_STRING'" > instance/config.py
 ```
 
-## Running migrations
+## Running migrations
 
 Now, we need to run our migrations, make sure that the user has privileges for the database you chose for this project.
 
